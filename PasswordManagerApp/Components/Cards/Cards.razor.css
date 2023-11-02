@@ -1,0 +1,9 @@
+﻿.btn-square-md {
+    width: 240px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 240px !important;
+    text-align: center;
+    padding: 0px;
+    font-size: 12px;
+}

@@ -1,0 +1,30 @@
+﻿@inherits CardItemComponent
+
+<head>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<div class="d-flex flex-row" style="padding:15px;margin-bottom:1rem;border:1px solid gray">
+    <div class="flex-column flex-grow-1">
+        <span>@Password.Name</span>
+    </div>
+    <div class="flex-column"> 
+        <button onclick="@VisualizePassword">
+            <span class="lnr lnr-eye"></span>
+        </button>
+    </div>
+</div>
+
+
+<Modal @ref="modal" title="Passoword">
+    <BodyTemplate>
+        <h4>@MainPassword</h4>
+    </BodyTemplate>
+    <FooterTemplate>
+    </FooterTemplate>
+</Modal>
+
+
+@code{
+   
+}
